@@ -24,7 +24,7 @@ public class StringEx {
 			String month = num.substring(2, 4);
 			String date = num.substring(4 ,6);
 			String gender = num.substring(num.length()-7, num.length()-7);
-		     if (gender == 1) {
+		     if (gender.equals(1)) {
 		            gender = "남자";
 		        } else {
 		            gender = "여자";
